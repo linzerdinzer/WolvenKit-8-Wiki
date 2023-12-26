@@ -15,11 +15,15 @@ Required files are contained within these archives
 
 ## Video files
 
-Using [the tool](https://github.com/WolvenKit/WolvenKit-nightly-releases/releases/latest), decompress **basegame\_5\_video.archive** located at: `<gamedir>\Cyberpunk 2077\archive\pc\content`.
+Using [Wolvenkit Console](https://github.com/WolvenKit/WolvenKit-nightly-releases/releases/latest), decompress **basegame\_5\_video.archive** located at: `<gamedir>\Cyberpunk 2077\archive\pc\content`.
+
+Do this by using the command prompt on your PC (Windows key+R, then enter **cmd** in the Run window), using the **cd** command to point the command prompt to the directory where you keep WolvenKit.Cli.exe, and using the following to command WolvenKit.Cli.exe to unbundle the desired archive into the desired depot folder.
 
 ```
 WolvenKit.Cli.exe unbundle -p "<gamedir>\Cyberpunk 2077\archive\pc\content\<nameofarchive>" -o "<outputfolder>"
 ```
+
+Replace <gamedir> and <outputfolder> with the appropriate desired filepaths.
 
 Once extracted, they can be viewed via [RADTools](http://www.radgametools.com/bnkdown.htm) as Bink Videos and converted to other formats.
 
